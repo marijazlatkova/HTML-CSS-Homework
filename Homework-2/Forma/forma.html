@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="formastyle.css" />
+  </head>
+  <body>
+    <div class="registration-form"><h1>Event Registration Form</h1></div>
+    <div class="main">
+      <form>
+        <div id="name">
+          <h2 class="name">Name</h2>
+          <input
+            class="first-name"
+            type="text"
+            name="first_name"
+            id="first_name"
+          /><br />
+          <label class="label-1">first name</label>
+          <input
+            class="last-name"
+            type="text"
+            name="last_name"
+            id="first_name"
+          />
+          <label class="label-2">last name</label>
+        </div>
+
+        <h2 class="name">Company</h2>
+        <input class="company" type="text" name="company" id="company" />
+
+        <h2 class="name">Email</h2>
+        <input
+          class="email"
+          type="text"
+          name="email"
+          id="email"
+          placeholder="example@gmail.com"
+        />
+
+        <h2 class="name">Phone</h2>
+        <input class="code" type="text" name="area_code" id="area_code" />
+        <label class="area-code">Area Code</label>
+        <input class="number" type="text" name="phone" id="phone" />
+        <label class="phone-number">Phone Number</label>
+
+        <h2 class="name">Subject</h2>
+        <select class="subject" name="subject">
+          <option class="subject" disabled="disabled" selected="selected">
+            Choose Option
+          </option>
+          <option>JavaScript Academy event</option>
+          <option>Python Academy event</option>
+          <option>Web Design Academy event</option>
+          <option>Full-Stuck Academy event</option>
+          <option>Front-end Academy event</option>
+          <option>DevOps Academy event</option>
+        </select>
+
+        <h2 class="radio" id="customer">Are you an existing customer?</h2>
+        <label class="radio-one">
+          <input class="radio-1" type="radio" name="checkmark" value="Yes" />
+          <span class="checkmark"></span>
+          Yes
+        </label>
+        <label class="radio-two">
+          <input class="radio-2" type="radio" name="checkmark" value="No" />
+          <span class="checkmark"></span>
+          No
+        </label>
+        <br /><br />
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

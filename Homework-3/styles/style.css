@@ -1,0 +1,100 @@
+body {
+    background-image: url(../assets/movie-background-collage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -15px;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: auto;
+    margin-top: -156.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: skyblue;
+}
+
+form input {
+    border-radius: 3px;
+    border: none;
+    height: 20px;
+    background-color: skyblue;
+    color: black;
+    padding-left: 5px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.nav-bar {
+    margin: auto;
+    margin-top: -40px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    background-color: skyblue;
+    border-radius: 4px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    margin-right: -30px;
+    margin-left: 35px;
+    margin-top: -5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.nav-buttons:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    display: flex;
+    margin-top: -5px;
+}
+  
+.column {
+    margin-left: 120px;
+    flex: 33.33%;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.99);
+}
